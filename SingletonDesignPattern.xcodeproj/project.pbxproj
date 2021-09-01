@@ -15,6 +15,8 @@
 		0D7866F326DF7BC0000786D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7866F126DF7BC0000786D2 /* LaunchScreen.storyboard */; };
 		0D7866FE26DF7BC1000786D2 /* SingletonDesignPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7866FD26DF7BC1000786D2 /* SingletonDesignPatternTests.swift */; };
 		0D78670926DF7BC1000786D2 /* SingletonDesignPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D78670826DF7BC1000786D2 /* SingletonDesignPatternUITests.swift */; };
+		0D78671B26DF7C0B000786D2 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D78671A26DF7C0B000786D2 /* Singleton.swift */; };
+		0D78672326DF7CDA000786D2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D78672226DF7CDA000786D2 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0D78670426DF7BC1000786D2 /* SingletonDesignPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonDesignPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D78670826DF7BC1000786D2 /* SingletonDesignPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonDesignPatternUITests.swift; sourceTree = "<group>"; };
 		0D78670A26DF7BC1000786D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D78671A26DF7C0B000786D2 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		0D78672226DF7CDA000786D2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		0D7866E526DF7BBE000786D2 /* SingletonDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				0D78671926DF7BEF000786D2 /* Singleton */,
 				0D7866E626DF7BBE000786D2 /* AppDelegate.swift */,
 				0D7866E826DF7BBE000786D2 /* SceneDelegate.swift */,
 				0D7866EA26DF7BBE000786D2 /* ViewController.swift */,
@@ -126,6 +131,15 @@
 				0D78670A26DF7BC1000786D2 /* Info.plist */,
 			);
 			path = SingletonDesignPatternUITests;
+			sourceTree = "<group>";
+		};
+		0D78671926DF7BEF000786D2 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				0D78671A26DF7C0B000786D2 /* Singleton.swift */,
+				0D78672226DF7CDA000786D2 /* User.swift */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D7866EB26DF7BBE000786D2 /* ViewController.swift in Sources */,
+				0D78671B26DF7C0B000786D2 /* Singleton.swift in Sources */,
 				0D7866E726DF7BBE000786D2 /* AppDelegate.swift in Sources */,
+				0D78672326DF7CDA000786D2 /* User.swift in Sources */,
 				0D7866E926DF7BBE000786D2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
